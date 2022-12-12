@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+       <androidx.appcompat.widget.AppCompatEditText
+           android:layout_width="match_parent"
+           android:hint="Enter Emp No"
+           android:id="@+id/et_Eno"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+       <androidx.appcompat.widget.AppCompatEditText
+           android:layout_width="match_parent"
+           android:hint="Enter Emp Name"
+           android:id="@+id/et_Ename"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+       <androidx.appcompat.widget.AppCompatEditText
+           android:layout_width="match_parent"
+           android:hint="Enter Emp Address"
+           android:id="@+id/et_Eaddress"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+       <androidx.appcompat.widget.AppCompatButton
+           android:text="Submit"
+           android:id="@+id/submit"
+           android:layout_marginTop="10dp"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
