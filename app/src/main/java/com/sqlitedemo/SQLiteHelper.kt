@@ -15,6 +15,7 @@ class SQLiteHelper (private val context: Context?):SQLiteOpenHelper(context, DAT
             "create table $TABLE_NAME($ENO text, $NAME text, $ADDRESS text)"
         Toast.makeText(context, "onCreate is called", Toast.LENGTH_LONG).show()
         try {
+
             db?.execSQL(CREATE_TABLE)
             Toast.makeText(context, "Table is inserted", Toast.LENGTH_SHORT).show()
         } catch (e: Exception) {
